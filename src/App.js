@@ -1,4 +1,3 @@
-import "./App.css";
 import PersonalDetailsForm from "./components/PersonalDetailsForm";
 
 function App() {
