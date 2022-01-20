@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import DropDownElement from "./DropdownElement";
-import Header from "./Header";
+import Header from "./HeaderUserDetails";
 import "./personaldetailsform.css";
 import placeIcon from "../assets/icon_place.svg";
 export default function PersonalDetailsForm() {
