@@ -62,7 +62,7 @@ export default function DropDownElement(props) {
   return (
     <div className="select-section">
       <div className="select">
-        <div className="select-top" onClick={() => handleInputClick()}>
+        <div className="select-top">
           <input
             className={
               choosenValue === selectDetails.default
@@ -72,6 +72,7 @@ export default function DropDownElement(props) {
             value={choosenValue}
             onChange={(e) => handleInputChange(e)}
             onFocus={() => setSelectIsOpen(true)}
+            onClick={() => handleInputClick()}
           ></input>
           <img
             className={selectIsOpen ? "img-open" : "img-close"}
